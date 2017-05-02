@@ -4,8 +4,11 @@ Implements the KNN algorithm using cosine distance with functions baked healthil
 nearest_neighbors(train, test, Y_train, n_neighbors=5) does the heavy lifting work in this implementation 
 
 train is a numpy ndarray containing the covariates of the training data
+
 test is a numpy ndarray containing the covaraites of the test data 
+
 Y_train isa numpy array containing the labels of the training data 
+
 n_neighbors is the number of neighbors we want to include in determining the lable of the test data 
 
 Testing on the Iris and red wine quality data sets: 
